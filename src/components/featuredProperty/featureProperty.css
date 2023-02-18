@@ -1,0 +1,42 @@
+.fp{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.fpItem{
+    flex:1;
+    border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+    cursor: poiner;
+}
+.fpImg{
+    width:100%;
+    height:80%;
+    object-fit:cover;
+}
+.fpname{
+    font-weight:bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.fpCity{
+    font-weight: 300;
+}
+.fpPrice{
+    font-weight: 550;
+}
+.fpRating>button{
+    background-color: #003580;
+    color:white;
+    border: none;
+    padding:3px;
+    margin-right:10px;
+    font-weight: bold;
+}
+
+.fpRating>span{
+    font-size: 19;
+}
